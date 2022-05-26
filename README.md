@@ -2,14 +2,19 @@
 configure CLI and terraform  run the following code 
 <br />
 to store the terraform state in local system exclude the following code in main
-
+<br />
 terraform {
+<br />
   backend "s3" {
+  <br />
     bucket         = "terrabackendassignment"
+    <br />
     key            = "terraform-state"
+    <br />
     region         = "us-east-1"
+    <br />
   }
-  
+<br />  
 run the following commands in terminal
 <br />
 1.terraform init (it will initialize terraform)
