@@ -1,4 +1,4 @@
-# ccassignment with images for reference
+# ccassignment EC2 creation through terraform images included for reference
 configure CLI and terraform  run the following code 
 <br />
 to store the terraform state in local system exclude the following code in main
@@ -31,7 +31,8 @@ ec2 instance named "name_from_cmd1" will be created
 <br />
 ![](images/cc4.png)
 <br />
-###s3 as backend
+<br />
+s3 as backend
 <br />
 create a bucket for storing terraform state by executing following command in terminal
 <br />
