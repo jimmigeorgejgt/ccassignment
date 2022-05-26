@@ -1,5 +1,6 @@
 # ccassignment
 configure CLI and terraform  run the following code 
+<br />
 to store the terraform state in local system exclude the following code in main
 
 terraform {
@@ -10,6 +11,7 @@ terraform {
   }
   
 run the following commands in terminal
+<br />
 1.terraform init (it will initialize terraform)
 2.terraform apply -var="instance_name=name_from_cmd1" (for overriding instance name through command line)
 ec2 instance named "name_from_cmd1" will be created
