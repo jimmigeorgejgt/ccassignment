@@ -1,4 +1,4 @@
-# ccassignment EC2 creation through terraform images included for reference
+# cloud computing assignment EC2 creation through terraform images included for reference
 configure CLI and terraform  run the following code 
 <br />
 to store the terraform state in local system exclude the following code in main
